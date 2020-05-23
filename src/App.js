@@ -30,7 +30,7 @@ function App() {
       <ThemeProvider theme={outerTheme}>
         <NavBar ></NavBar>
         <SimpleTabs></SimpleTabs>
-        <Footer></Footer>
+        <Footer title={"Намали со пластика."}></Footer>
       </ThemeProvider>
     </>
   );
