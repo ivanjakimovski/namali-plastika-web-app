@@ -17,8 +17,9 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   title: {
-    alignContent: "center",
+    margin: "auto",
     flexGrow: 1,
+    padding: "10px",
   },
 }));
 
@@ -27,9 +28,9 @@ function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+      <AppBar style={{ backgroundColor: "#1dc91d" }} position="static">
+        <Toolbar className={classes.title}>
+          <Typography variant="h3" className={classes.title}>
             Намали со пластика
           </Typography>
         </Toolbar>
