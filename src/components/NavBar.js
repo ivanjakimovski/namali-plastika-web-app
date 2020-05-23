@@ -5,10 +5,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 
-import Button from "@material-ui/core/Button";
-import IconButton from "@material-ui/core/IconButton";
-import MenuIcon from "@material-ui/icons/Menu";
-
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -19,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     margin: "auto",
     flexGrow: 1,
-    padding: "10px",
+    padding: "5px",
   },
 }));
 
@@ -28,7 +24,7 @@ function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar style={{ backgroundColor: "#1dc91d" }} position="static">
+      <AppBar position="static">
         <Toolbar className={classes.title}>
           <Typography variant="h3" className={classes.title}>
             Намали со пластика
