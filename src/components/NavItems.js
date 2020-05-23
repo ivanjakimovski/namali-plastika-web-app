@@ -50,8 +50,8 @@ const useStyles = makeStyles((theme) => ({
   center: {
     margin: "auto",
     flexGrow: 1,
-    paddingLeft: "4rem",
-    paddingRight: "4rem",
+    paddingLeft: "1rem",
+    paddingRight: "1rem",
     allignItems: "center",
 
   },

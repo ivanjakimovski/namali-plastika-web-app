@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import SimpleTabs from "./components/NavItems";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer"
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import Checkbox from "@material-ui/core/Checkbox";
 import { green, orange } from "@material-ui/core/colors";
@@ -29,6 +30,7 @@ function App() {
       <ThemeProvider theme={outerTheme}>
         <NavBar ></NavBar>
         <SimpleTabs></SimpleTabs>
+        <Footer></Footer>
       </ThemeProvider>
     </>
   );
