@@ -7,6 +7,7 @@ import Footer from "./components/Footer"
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import Checkbox from "@material-ui/core/Checkbox";
 import { green, orange } from "@material-ui/core/colors";
+import Blog from './blog/Blog';
 
 const outerTheme = createMuiTheme({
   palette: {
@@ -27,11 +28,12 @@ const innerTheme = createMuiTheme({
 function App() {
   return (
     <>
-      <ThemeProvider theme={outerTheme}>
+      {/* <ThemeProvider theme={outerTheme}>
         <NavBar ></NavBar>
         <SimpleTabs></SimpleTabs>
         <Footer title={"Намали со пластика."}></Footer>
-      </ThemeProvider>
+      </ThemeProvider> */}
+      <Blog></Blog>
     </>
   );
 }
