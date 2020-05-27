@@ -211,7 +211,7 @@ export default function Blog() {
         <main>
          
           <Grid container spacing={5} className={classes.mainGrid}>
-            <Main title="Нашата цел" posts={posts} />
+            <Main title="Нашата цел" postContent="Да го намалиме користењето на пластика и да ја заштитиме околината од штетното влијание на истата." />
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}

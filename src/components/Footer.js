@@ -10,7 +10,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {"Made to make a change  "}
 
-      <span class="material-icons">eco</span>
+      <span className="material-icons">eco</span>
 
       {new Date().getFullYear()}
       {"."}
