@@ -34,7 +34,7 @@ export default function Sidebar(props) {
         Социјални мрежи
       </Typography>
       {social.map((network) => (
-        <Link display="block" variant="body1" href="https://www.instagram.com/eko_inicijativa/" key={network}>
+        <Link display="block" variant="body1" target="_blank" href="https://www.instagram.com/eko_inicijativa/" key={network}>
           <Grid container direction="row" spacing={1} alignItems="center">
             <Grid item>
               <network.icon />

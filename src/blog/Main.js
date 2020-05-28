@@ -30,7 +30,7 @@ export default function Main(props) {
         {postContent}
         <br/>
         {message}
-        <Link display="block" variant="body1" href={linkToForm}>{linkToForm}</Link>
+        <Link display="block" target="_blank" variant="body1" href={linkToForm}>{linkToForm}</Link>
         {/* {posts.map((post) => (
           <Markdown className={classes.markdown} key={post.substring(0, 40)}>
             {post}
