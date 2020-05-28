@@ -211,7 +211,11 @@ export default function Blog() {
         <main>
          
           <Grid container spacing={5} className={classes.mainGrid}>
-            <Main title="Нашата цел" postContent="Да го намалиме користењето на пластика и да ја заштитиме околината од штетното влијание на истата." />
+            <Main title="Нашата цел" postContent="Да го намалиме користењето на пластика и да ја заштитиме околината од штетното влијание на истата." 
+            message="Многу ни е важно да го измериме влијанието од нашиот проект, затоа помогнете ни со пополнување на следнава анкета:"
+            linkToForm="https://forms.gle/YDF2WSqnrKDJZd2S9 "
+            showForm={true}
+            />
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}
